@@ -8,7 +8,7 @@ RUN pip --version
 RUN mkdir /src && \
     cd /src && \
     git clone https://github.com/diggr/provit && \
-    git clone -b develop https://github.com/diggr/daft && \
+    git clone https://github.com/diggr/daft && \
     git clone https://github.com/diggr/diggrtoolbox && \
     cd /src/provit && \
     pip install . && \
